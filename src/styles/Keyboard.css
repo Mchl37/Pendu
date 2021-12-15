@@ -1,0 +1,19 @@
+.alphabet {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alphabet button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.alphabet button.used {
+    opacity: 0.5;
+}

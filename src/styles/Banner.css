@@ -1,8 +1,8 @@
 .banner {
-	color: black;
+	color: white;
 	text-align: right;
 	padding: 20px;
-	border-bottom: solid 3px black;
+	border-bottom: solid 3px white;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
