@@ -1,0 +1,19 @@
+.banner {
+	color: black;
+	text-align: right;
+	padding: 20px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+}
+
+.banner-title {
+	padding-left: 20px;
+}
+
+.banner-logo {
+	height: 45px;
+	width: 45px;
+}
