@@ -1,24 +1,24 @@
-import '../styles/App.css';
+import '../styles/App.css'
 import React, { useState, useEffect } from "react"
-//import Banner from './Banner';
-//import Game from './Game';
+//import Banner from './Banner'
+//import Game from './Game'
 
 function App() {
-    const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(false);
-    const [items, setItems] = useState([]);
+    const [error, setError] = useState(null)
+    const [isLoaded, setIsLoaded] = useState(false)
+    const [items, setItems] = useState([])
 
     useEffect(() => {
         fetch("https://animalfinderapi.herokuapp.com/")
         .then(res => res.json())
         .then(
             (result) => {
-            setIsLoaded(true);
-            setItems(result.word);
+            setIsLoaded(true)
+            setItems(result.word)
             },
             (error) => {
-            setIsLoaded(true);
-            setError(error);
+            setIsLoaded(true)
+            setError(error)
             }
         )
     }, [])
@@ -36,7 +36,7 @@ function App() {
             </li>
             ))}
         </ul>
-        );
+        )
     }
 }
 
