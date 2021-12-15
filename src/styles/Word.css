@@ -1,0 +1,11 @@
+.current-word span {
+    font-size: 40px;
+}
+
+.current-word span.notfound {
+    opacity: 0.3;
+}
+
+.current-word span.lost {
+    color: red;
+}

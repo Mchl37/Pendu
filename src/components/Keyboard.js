@@ -3,7 +3,7 @@ import { useEffect } from "react"
 
 function Keyboard({ action }) {
     const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    const GOOD_LETTER = "AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbnéàâêè";
+    /* const GOOD_LETTER = "AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbnéàâêè";
 
     const handleKeyDown = (e) => {
         if(GOOD_LETTER.includes(e.key)) {
@@ -17,7 +17,7 @@ function Keyboard({ action }) {
         return () => {
             window.removeEventListener("keydown", handleKeyDown);
         }
-    }, [])
+    }, []) */
 
     return (
         <div className="alphabet">
